@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+    <header>
+        <h1>Formulario de pesquisa de satisfação</h1>
+    </header>
+    <hr>
+    <main>
+        <h2>Pesquisa de satisfação</h2>
+        <img src="saudacao.png.crdownload" />
+        <div class="nome">
+            <label>Nome (opcional)</label>
+            <input class="nome" type="text" name="nome" placeholder="Digite seu nome">
+        </div>
+        <br>
+        <div class="email">
+            <label>E-mail (opcional)</label>
+            <input class="email" type="email" name="email" placeholder="Digite seu E-mail">
+        </div>
+        <br>
+        <div class="numero">
+            <label>Número de telefone (opcional)</label>
+            <input class="numero" type="text" name="numero" placeholder="Digite seu número de telefone">
+        </div>
+        <br>
+        <div class="faixa_etaria">
+            <label>Qual sua faixa etária</label><br>
+            <select class="faixa_etaria" name="faixa etária">
+                <option aria-placeholder="Selecione sua idade">Selecione sua idade</option>
+                <option value="0-17">0 a 17</option>
+                <option value="18-24">18 a 24</option>
+                <option value="25-34">25 a 34</option>
+                <option value="35-44">35 a 44</option>
+                <option value="45-54">55 ou mais</option>
+            </select>
+        </div>
+        <br>
+        <label>De maneira geral, como classifica nossos serviços</label>
+        <table border="1px" class="tabela">
+            <thead>
+                <tr>
+                    <td></td>
+                    <td>Exelente</td>
+                    <td>Bom</td>
+                    <td>Médio</td>
+                    <td>Neutro</td>
+                    <td>Insatisfatório</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Atendimento Telefônico</td>
+                    <td><input type="radio" name="at"></td>
+                    <td><input type="radio" name="at"></td>
+                    <td><input type="radio" name="at"></td>
+                    <td><input type="radio" name="at"></td>
+                    <td><input type="radio" name="at"></td>
+                </tr>
+                <tr>
+                    <td>Disponibilidade da Agenda</td>
+                    <td><input type="radio" name="da"></td>
+                    <td><input type="radio" name="da"></td>
+                    <td><input type="radio" name="da"></td>
+                    <td><input type="radio" name="da"></td>
+                    <td><input type="radio" name="da"></td>
+                </tr>
+                <tr>
+                    <td>Clareza das Informações</td>
+                    <td><input type="radio" name="cl"></td>
+                    <td><input type="radio" name="cl"></td>
+                    <td><input type="radio" name="cl"></td>
+                    <td><input type="radio" name="cl"></td>
+                    <td><input type="radio" name="cl"></td>
+                </tr>
+                <tr>
+                    <td>Decoração</td>
+                    <td><input type="radio" name="d"></td>
+                    <td><input type="radio" name="d"></td>
+                    <td><input type="radio" name="d"></td>
+                    <td><input type="radio" name="d"></td>
+                    <td><input type="radio" name="d"></td>
+                </tr>
+                <tr>
+                    <td>Organização do Ambiente</td>
+                    <td><input type="radio" name="oa"></td>
+                    <td><input type="radio" name="oa"></td>
+                    <td><input type="radio" name="oa"></td>
+                    <td><input type="radio" name="oa"></td>
+                    <td><input type="radio" name="oa"></td>
+                </tr>
+                <tr>
+                    <td>Conservação e Higiene dos Equipamentos</td>
+                    <td><input type="radio" name="che"></td>
+                    <td><input type="radio" name="che"></td>
+                    <td><input type="radio" name="che"></td>
+                    <td><input type="radio" name="che"></td>
+                    <td><input type="radio" name="che"></td>
+                </tr>
+                <tr>
+                    <td>Pontualidade</td>
+                    <td><input type="radio" name="p"></td>
+                    <td><input type="radio" name="p"></td>
+                    <td><input type="radio" name="p"></td>
+                    <td><input type="radio" name="p"></td>
+                    <td><input type="radio" name="p"></td>
+                </tr>
+                <tr>
+                    <td>Qualidade</td>
+                    <td><input type="radio" name="q"></td>
+                    <td><input type="radio" name="q"></td>
+                    <td><input type="radio" name="q"></td>
+                    <td><input type="radio" name="q"></td>
+                    <td><input type="radio" name="q"></td>
+                </tr>
+                <tr>
+                    <td>Agilidade</td>
+                    <td><input type="radio" name="a"></td>
+                    <td><input type="radio" name="a"></td>
+                    <td><input type="radio" name="a"></td>
+                    <td><input type="radio" name="a"></td>
+                    <td><input type="radio" name="a"></td>
+                </tr>
+                <tr>
+                    <td>Cordialidade</td>
+                    <td><input type="radio" name="c"></td>
+                    <td><input type="radio" name="c"></td>
+                    <td><input type="radio" name="c"></td>
+                    <td><input type="radio" name="c"></td>
+                    <td><input type="radio" name="c"></td>
+                </tr>
+                <tr>
+                    <td>Conhecimento Tecnico</td>
+                    <td><input type="radio" name="ct"></td>
+                    <td><input type="radio" name="ct"></td>
+                    <td><input type="radio" name="ct"></td>
+                    <td><input type="radio" name="ct"></td>
+                    <td><input type="radio" name="ct"></td>
+                </tr>
+                <tr>
+                    <td>Preço e Forma de Pagamento</td>
+                    <td><input type="radio" name="pfp"></td>
+                    <td><input type="radio" name="pfp"></td>
+                    <td><input type="radio" name="pfp"></td>
+                    <td><input type="radio" name="pfp"></td>
+                    <td><input type="radio" name="pfp"></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="probabilidade">
+            <label>Qual a probabilidade de retornar?</label>
+            <input name="probabilidade" type="radio">Definitiva
+            <input name="probabilidade" type="radio">Provável
+            <input name="probabilidade" type="radio">Improvável
+            <input name="probabilidade" type="radio">Nunca
+        </div>
+        <div class="Sugestao">
+            <label>Sugestões:</label>
+            <textarea name="Sugestões" placeholder="Digite sua sugestão ou comentario"></textarea>
+        </div>
+    </main>
+</body>
+
+</html>
