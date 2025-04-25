@@ -1,0 +1,48 @@
+body, html{
+    padding: 0;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #ffa;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+h1,h2{
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+}
+hr{
+    width: 100%;
+    margin: 0;
+    background-color: #000;
+    pointer-events:none;
+}
+img{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    pointer-events:none;
+}
+.nome{
+    width: 100%;
+}
+.email{
+    width: 100%;
+}
+.numero{
+    width: 100%;
+}
+label{
+    pointer-events: none;
+    font-weight:bold;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.tabela{
+    border: 1px solid ;
+}
