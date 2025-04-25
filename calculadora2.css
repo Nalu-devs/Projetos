@@ -1,0 +1,49 @@
+body{
+    background-color: #ffafff;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+h1{
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+.teclas{
+    margin-left: 460px;
+    display: flex;
+    display: grid;
+    grid-template-columns: 80%, 20%;
+    grid-template-rows: 150px auto 100px;
+    grid-template-areas: 'operador operador'
+                        'num igual';
+}
+button{
+    width:100px;
+    height: 50px;
+}
+header{
+    margin-top: 80px;
+    grid-area: operador;
+}
+main{
+    grid-area: num;
+}
+aside{
+    grid-area: igual;
+    margin-right: 565px;
+}
+.igualdade{
+    height: 260px;
+    position: absolute;
+}
+.conta{
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: 458px;
+    height: 30px;
+    width: 415px;
+}
