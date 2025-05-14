@@ -4,6 +4,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h1{
     display: block;
@@ -11,7 +12,7 @@ h1{
     text-align: center;
 }
 .teclas{
-    margin-left: 460px;
+    margin-left: 34%;
     display: flex;
     display: grid;
     grid-template-columns: 80%, 20%;
